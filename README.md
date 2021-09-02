@@ -1,2 +1,2 @@
 # new
-new rc qwbsite that reserve testing
+new beta qwbsite that reserve testing
