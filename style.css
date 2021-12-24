@@ -11,6 +11,7 @@ body{
     color:white;
 }
 .main {
+    background-color: white;
     border: black 2px;
     color: black;
 }
