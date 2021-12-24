@@ -11,6 +11,13 @@ body{
     color:white;
 }
 .main {
+    /*works on IE 6+ or chrome/firefox*/
+    background: rgb(255,255,255);
+    background: -moz-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(128,122,123,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(128,122,123,1) 100%);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(128,122,123,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#807a7b",GradientType=1);
+
     margin: auto;
     width: 60%;
 
