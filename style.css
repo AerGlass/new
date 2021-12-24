@@ -11,7 +11,10 @@ body{
     color:white;
 }
 .main {
+    margin: auto;
+    width: 60%;
+
     background-color: white;
-    border: black 2px;
+    border: 2px solid black;
     color: black;
 }
